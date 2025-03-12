@@ -3,6 +3,7 @@ package org.codenova.spring.controller;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+import org.codenova.spring.model.Sanrio;
 import org.codenova.spring.model.TravelSchedule;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Controller;
@@ -115,4 +116,7 @@ public class StudyController {
       void 를 쓰면 , mapping 잡힌 그 경로를 뷰이름으로 사용한다
 
      */
+
+
+
 }
