@@ -23,7 +23,7 @@ public class UserController {
 
         System.out.println("UserController.joinProceedHandle");
         //view 이름 리턴시킬때 redirect: 을 붙이면 sendRedirect 처리를 해줌
-        return "redirect:/index";
+        return "redirect:/";
     }
 
 
