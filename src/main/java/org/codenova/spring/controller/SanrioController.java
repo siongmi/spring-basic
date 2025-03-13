@@ -18,7 +18,7 @@ public class SanrioController {
     }
     @RequestMapping("/info")
     public String studySanrioInfoHandle(@ModelAttribute Sanrio sanrio, Model model){
-        int bmi = sanrio.getWeight()/(sanrio.getHeight()* sanrio.getHeight());
+        int bmi = sanrio.getWeight()/(sanrio.getHeight()/100* sanrio.getHeight()/100);
         if (bmi>=30){
             model.addAttribute("bmi", "뚱뚱이임");
         } else {
